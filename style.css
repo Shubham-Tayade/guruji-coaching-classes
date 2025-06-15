@@ -1,0 +1,24 @@
+ /* Smooth Scroll */
+        html {
+            scroll-behavior: smooth;
+        }
+        /* Hover Effect */
+        .card:hover {
+            transform: scale(1.05);
+            transition: 0.3s;
+        }
+        /* Jumbotron */
+        .jumbotron {
+            background: linear-gradient(to right, #007bff, #00c6ff);
+            padding: 80px;
+            border-radius: 10px;
+        }
+        .testimonial {
+            text-align: center;
+            padding: 20px;
+        }
+        #hero1{
+         background-image:url(images/train.jpg) no-repeat center center;
+         background-size:cover;
+         background-attachment:fixed;
+          }
